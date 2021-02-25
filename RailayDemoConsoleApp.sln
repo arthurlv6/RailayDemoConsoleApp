@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailayDemoConsoleApp", "RailayDemoConsoleApp\RailayDemoConsoleApp.csproj", "{850DB898-A3F2-4C77-8F81-01D4C0466940}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Railway", "Railway\Railway.csproj", "{8DF5EE26-96C0-4055-B17E-1E1E8433DF30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{850DB898-A3F2-4C77-8F81-01D4C0466940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{850DB898-A3F2-4C77-8F81-01D4C0466940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{850DB898-A3F2-4C77-8F81-01D4C0466940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{850DB898-A3F2-4C77-8F81-01D4C0466940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DF5EE26-96C0-4055-B17E-1E1E8433DF30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DF5EE26-96C0-4055-B17E-1E1E8433DF30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DF5EE26-96C0-4055-B17E-1E1E8433DF30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DF5EE26-96C0-4055-B17E-1E1E8433DF30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4567AE7A-C802-4AEA-B620-71EC7E2AAB84}
+	EndGlobalSection
+EndGlobal
