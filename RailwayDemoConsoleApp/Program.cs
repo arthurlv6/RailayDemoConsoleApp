@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace RailayDemoConsoleApp
+namespace RailwayDemoConsoleApp
 {
     public class Program
     {
@@ -11,11 +11,11 @@ namespace RailayDemoConsoleApp
             string canBeAnyType = "";
             var maybe = Maybe.Ok(canBeAnyType); //convert anytime to Maybe type.
 
-            var result=maybe.Railway(r => Method1(r))
-                .Railway(r=>Method2(r))
-                .Railway(r=>Method3(r));
+            var result = maybe.Railway(r => Method1(r))
+                .Railway(r => Method2(r))
+                .Railway(r => Method3(r));
 
-            if(result.IsFailure)
+            if (result.IsFailure)
                 Console.WriteLine("Failed");
             else
                 Console.WriteLine("Success");
